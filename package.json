@@ -1,0 +1,19 @@
+{
+  "name": "making_clean_folders",
+  "version": "1.0.0",
+  "description": "This helps us to clean our directory to move related files to their respective folders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg ./index.js --output CleanFolders"
+  },
+  "keywords": [
+    "clean",
+    "folders"
+  ],
+  "author": "Rana Raees Ahmad Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  }
+}
